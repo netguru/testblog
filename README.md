@@ -11,7 +11,7 @@ Follow the instructions:
     * add a simple comment system
     * add a simple voting system (vote_up / vote_down is enough)
     * in the post view the date should be formatted like so – `21/07/2013 : 14:10`
-    * after receiving three negative votes the comemnt should be marked as abusive and hidden from the user
+    * after receiving three negative votes the comment should be marked as abusive and hidden from the user
     * that comment should still be visible to the author of the post on the comments list, the author should be able to cancel the 'abusive' state
     * user can't vote twice for the same comment
     * all those actions should be accessible through the app interface (you need to add/modify views - fixing the unit tests is not enough)
@@ -26,7 +26,7 @@ Follow the instructions:
     * fill out the [registration form](https://docs.google.com/forms/d/1UACYlrBSd7w1eSCpC4j8pPEeKkgWObPYc0-y84n73ng/viewform)
 8. Splendid! You've finished the task. We will soon let you know about the result.
 
-Remember – there is a lmited number of attendees, so the sooner you complete the task the better your chances are.
+Remember – there is a limited number of attendees, so the sooner you complete the task, the better your chances are.
 
 ## Here are some great resources to help you with kicking off your adventure with Rails:
 
@@ -37,17 +37,17 @@ Remember – there is a lmited number of attendees, so the sooner you complete t
 
 ## Improve your workflow with automated rspec running
 
-Technically, they way how you will be completing this task is called [Test-driven development (TDD)](http://stackoverflow.com/questions/11941/getting-started-with-agile-and-tdd). I found using [guard gem](https://github.com/guard/guard) in this programming methodology is very helpful. If you aren't familiar with TDD concept yet let me explain this in few words.
+Technically, the way how you will be completing this task is called [Test-driven development (TDD)](http://stackoverflow.com/questions/11941/getting-started-with-agile-and-tdd). I found using [guard gem](https://github.com/guard/guard) in this programming methodology is very helpful. If you aren't familiar with TDD concept yet, let me explain this in few words.
 
-Idea of this programming methodology is to first write a test and then write a piece of code that will make this test pass :green_heart:.
+Idea of this programming methodology is to first write a test and then write a piece of code, that will make this test pass :green_heart:.
 
 In `testblog` app tests are already written. The 'only' thing you need to do is to make these tests pass and eventually add your own for custom behaviour of app (and also make them pass!). 
 
 To make this process more friendly I would recommend you use [guard-rspec gem](https://github.com/guard/guard-rspec). How does it work?
 
-It's very simple. By default Guard (with rspec addon) watches files in your working folder and when you make any change to them (add piece of code, remove file, etc.) it runs test so you can track your progress all the time without running `rspec` command anymore! 
+It's very simple. By default Guard (with rspec addon) watches files in your working folder and when you make any change to them (add piece of code, remove file, etc.), it runs test so you can track your progress all the time, without running `rspec` command anymore! 
 
-It saves a lot of the time, help to track current and further tasks and what is more, if your new piece of code will destroy (bug :exlamation:) any behaviour in app you will get notified about it immedlity. As sooner you can react on bug as easier it is to remove this bug.
+It saves a lot of the time, help to track current and further tasks and what is more, if your new piece of code will destroy (bug :exlamation:) any behaviour in app, you will get notified about it immedlity. As sooner you can react on bug as easier it is to remove this bug.
 
 How to start? 
 
@@ -61,7 +61,7 @@ How to start?
     21:02:07 - INFO - rspec guard added to Guardfile, feel free to edit it
     ```
 
-3. Run `guard` command. Now this console/terminal/cmd tab will watch all files in project's directory untill you terminate it (`control+c on OS X`). You should see this console output:
+3. Run `guard` command. Now this console/terminal/cmd tab will watch all files in project's directory until you terminate it (`control+c on OS X`). You should see this console output:
 
     ```
     21:02:18 - INFO - Guard is using TerminalTitle to send notifications.
